@@ -1,0 +1,98 @@
+ls -l
+cd repogit/
+ls -l
+alias
+alias saludo="echo $(whoami)"
+saludo
+whoami
+eho
+echo hola
+ll
+ls -l
+ls -la
+ls -la ../
+ls -la $HOME
+ls -la /home/vagrant/
+ls -la /home/vagrant/.ssh/
+ssh
+ssh-keygen --help
+ssh-keygen -t ed25519
+ls -la /home/vagrant/.ssh/
+cat /home/vagrant/.ssh/id_ed25519.pub 
+git clone git@github.com:waz0056/TP_AySO.git
+ll
+cd TP_AySO/
+git status
+touch un_archivo
+ll
+git status
+git add .
+git status
+git commit -m "add: primer commit"
+git config --global user.email "marianoweiss056@gmail.com"
+git config --global user.name "waz0056"
+git commit -m "add: primer commit"
+git status
+git push
+man man
+apropos "file"
+man -k "archivo"
+man -k network
+man
+man man
+man 6
+man ll
+ll man
+whoami
+apropos man
+cat /etc/os-release
+man grep
+man grep "case sensitive"
+man grep case sensitive
+grep "case sensitive" man
+man grep
+man ps
+ps
+ps -ef
+lspci
+ls
+lscpu
+lsram
+lsmother
+ls man
+man ls
+dmidecode | more
+sudo dmidecode | more
+tree
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i home_url /etc/os-release
+whoami
+echo "Usuario=$(vagrant)" > datos_usuario.txt
+echo "Usuario=$vagrant" > datos_usuario.txt
+ls -l
+cat datos_usuario.txt
+echo "Usuario=$(whoami)" > datos_usuario.txt
+cat datos_usuario.txt
+git add .
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+grep "model name" /proc/cpuinfo | head -n1
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+git add datos_usuario.txt
+git commit -m "feat: Añadiendo información de CPU"
+grep -v "nologin" /etc/passwd | head -n10 | sort -t: -k7 > lista_ordenada
+git add lista_ordenada
+git commit -m "ADD: Listado de usuarios ordenada"
+echo "tcpdump" > comando_dump_net
+git add comando_dump_net
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+cat << EOF > README.md
+Alumno: Mariano Weiss
+División: 313
+Turno: Noche
+EOF
+
+git add README.md
+git commit -m "docs: Añadiendo información del alumno"
+history -a
